@@ -1,0 +1,29 @@
+name: jogja_cutting_laser
+description: "A static, offline-first Flutter application for CV. Jasa Mulia Ankabut."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  youtube_player_flutter: ^9.0.1
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10
+  syncfusion_flutter_pdfviewer: ^31.1.19
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
